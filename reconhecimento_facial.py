@@ -4,8 +4,7 @@ import cv2 as cv
 carregaAlgoritmo = cv.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
 
 # 'lendo' a imagem
-imagem = cv.imread('Fotos/imagem2t'
-                   '.jpg')
+imagem = cv.imread('Fotos/imagem1.jpg')
 
 # transformando a imagem em cinza para uma melhor leitura
 imagemCinza = cv.cvtColor(imagem, cv.COLOR_BGR2GRAY)
